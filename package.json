@@ -1,5 +1,29 @@
 {
   "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
     "cypress": "^14.2.0"
-  }
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/step_definitions/**/*.js"
+  },
+  "name": "incubyte-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patelarsakhil/incubyte-task.git"
+  },
+  "keywords": [],
+  "author": "Akhil Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patelarsakhil/incubyte-task/issues"
+  },
+  "homepage": "https://github.com/patelarsakhil/incubyte-task#readme"
 }
